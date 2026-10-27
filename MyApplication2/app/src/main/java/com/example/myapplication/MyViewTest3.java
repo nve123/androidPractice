@@ -9,16 +9,16 @@ import android.os.CountDownTimer;
 
 
 public class MyViewTest3 extends View {
-    int N = 5;
-    int[] x = new int[N];
-    int[] y = new int[N];
-    int[] vx = new int[N];
-    int[] vy = new int[N];
-    int[] L = new int[N];
-    int[] Red = new int[N];
-    int[] Green = new int[N];
-    int[] Blue = new int[N];
-    int[] R = new int[N];
+    int n = 5;
+    int[] x = new int[n];
+    int[] y = new int[n];
+    int[] vx = new int[n];
+    int[] vy = new int[n];
+    int[] l = new int[n];
+    int[] red = new int[n];
+    int[] green = new int[n];
+    int[] blue = new int[n];
+    int[] r = new int[n];
     int z = -1;
     double a = 0, ha = Math.PI / 180;
 
@@ -33,21 +33,21 @@ public class MyViewTest3 extends View {
         fillArrayRandom(y, 50, 250);
         fillArrayRandom(vx, -50, 100);
         fillArrayRandom(vy, -50, 100);
-        fillArrayRandom(L, 3, 10);
-        fillArrayRandom(Red, 50, 255);
-        fillArrayRandom(Green, 50, 255);
-        fillArrayRandom(Blue, 50, 255);
-        fillArrayRandom(R, 20, 40);
+        fillArrayRandom(l, 3, 10);
+        fillArrayRandom(red, 50, 255);
+        fillArrayRandom(green, 50, 255);
+        fillArrayRandom(blue, 50, 255);
+        fillArrayRandom(r, 20, 40);
     }
 
     void moveBalls() {
-        for (int i = 0; i < N; i++) {
+        for (int i = 0; i < n; i++) {
             if (i % 2 == 0) {
-                x[i] = this.getWidth() / 2 + (int) (L[i] * vx[i] * Math.cos(a));
-                y[i] = this.getHeight() / 2 + (int) (z * L[i] * vy[i] * Math.sin(a));
+                x[i] = this.getWidth() / 2 + (int) (l[i] * vx[i] * Math.cos(a));
+                y[i] = this.getHeight() / 2 + (int) (z * l[i] * vy[i] * Math.sin(a));
             } else {
-                x[i] = this.getWidth() / 2 + (int) (L[i] * vx[i] * Math.cos(a));
-                y[i] = this.getHeight() / 2 + (int) (L[i] * vy[i] * Math.sin(a));
+                x[i] = this.getWidth() / 2 + (int) (l[i] * vx[i] * Math.cos(a));
+                y[i] = this.getHeight() / 2 + (int) (l[i] * vy[i] * Math.sin(a));
             }
         }
         a = a + ha;
@@ -66,30 +66,32 @@ public class MyViewTest3 extends View {
         paint.setColor(Color.RED);
         canvas.drawCircle(this.getWidth() / 2, this.getHeight() / 2, 70, paint);
         paint.setStyle(Paint.Style.FILL);
-        for (int i = 0; i < N; i++) {
-            paint.setColor(Color.argb(200, Red[i], Green[i], Blue[i]));
-            canvas.drawCircle(x[i], y[i], R[i], paint);
+        for (int i = 0; i < n; i++) {
+            paint.setColor(Color.argb(200, red[i], green[i], blue[i]));
+            canvas.drawCircle(x[i], y[i], r[i], paint);
             paint.setTextSize(30.0f);
             paint.setColor(Color.BLACK);
             canvas.drawText("P " + i + " (" + x[i] + ", " + y[i] + ")", x[i] + 10, y[i] - 15, paint);
         }
     }
+
     void nextFrame() {
         moveBalls();
         invalidate();
     }
+
     class MyTimer extends CountDownTimer {
         MyTimer() {
             super(1000000, 1);
         }
+
         @Override
         public void onTick(long millisUntilFinished) {
-            // TODO Auto-generated method stub
             nextFrame();
         }
+
         @Override
         public void onFinish() {
-            // TODO Auto-generated method stub
         }
     }
 }

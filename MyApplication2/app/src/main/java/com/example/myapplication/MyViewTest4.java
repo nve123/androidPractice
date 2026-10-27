@@ -8,39 +8,36 @@ import android.os.CountDownTimer;
 import android.view.View;
 
 public class MyViewTest4 extends View {
-    int N = 15;
-    int[] l = new int [N];
+    int n = 15;
+    int[] l = new int[n];
     double x0, y0;
-    double[] x = new double [N];
-    double[] y = new double [N];
+    double[] x = new double[n];
+    double[] y = new double[n];
     double g = 9.832f, pi = Math.PI;
-    double[] w = new double[N];
+    double[] w = new double[n];
     double fi0;
-    double[] fi = new double[N];
+    double[] fi = new double[n];
     int t = 0, deltaT = 1;
 
-    void makePendulum()
-    {
-        fi0 = pi/4;
+    void makePendulum() {
+        fi0 = pi / 4;
 
         int l_min = 100;
-        for (int i = 0; i<N; i++)
-        {
+        for (int i = 0; i < n; i++) {
             l[i] = l_min;
             l_min += 50;
 
-            w[i] = Math.sqrt(g/l[i]);
+            w[i] = Math.sqrt(g / l[i]);
         }
     }
-    void movePendulum()
-    {
+
+    void movePendulum() {
         t += deltaT;
 
-        for (int i = 0; i<N; i++)
-        {
+        for (int i = 0; i < n; i++) {
             fi[i] = fi0 * Math.cos(w[i] * t);
-            x[i] = l[i]*Math.sin(fi[i]);
-            y[i] = l[i]*Math.cos(fi[i]);
+            x[i] = l[i] * Math.sin(fi[i]);
+            y[i] = l[i] * Math.cos(fi[i]);
         }
     }
 
@@ -53,38 +50,36 @@ public class MyViewTest4 extends View {
 
     @Override
     protected void onDraw(Canvas canvas) {
-        x0 = getWidth()/2;
-        y0 = getHeight()/4;
+        x0 = getWidth() / 2;
+        y0 = getHeight() / 4;
         Paint paint = new Paint();
         canvas.drawCircle((float) x0, (float) y0, 10, paint);
-        for (int i = 0; i<N; i++)
-        {
+        for (int i = 0; i < n; i++) {
             paint.setColor(Color.BLUE);
-            canvas.drawLine((float)x0, (float)y0, (float)(x[i] + x0), (float)(y[i]+ y0), paint);
+            canvas.drawLine((float) x0, (float) y0, (float) (x[i] + x0), (float) (y[i] + y0), paint);
             paint.setColor(Color.RED);
-            canvas.drawCircle((float)(x[i] + x0), (float)(y[i] + y0), 20, paint);
-            for (int j = 0; j < N - 1; j++) {
-                canvas.drawLine((float)(x[j] + x0), (float)(y[j] + y0), (float)(x[j + 1] + x0), (float)(y[j + 1] + y0), paint);
+            canvas.drawCircle((float) (x[i] + x0), (float) (y[i] + y0), 20, paint);
+            for (int j = 0; j < n - 1; j++) {
+                canvas.drawLine((float) (x[j] + x0), (float) (y[j] + y0), (float) (x[j + 1] + x0), (float) (y[j + 1] + y0), paint);
             }
         }
     }
 
-    void nextFrame()
-    {
+    void nextFrame() {
         movePendulum();
         invalidate();
     }
 
-    class MyTimer extends CountDownTimer
-    {
-        MyTimer()
-        {
+    class MyTimer extends CountDownTimer {
+        MyTimer() {
             super(100000, 100);
         }
+
         @Override
         public void onTick(long millisUntilFinished) {
             nextFrame();
         }
+
         @Override
         public void onFinish() {
         }

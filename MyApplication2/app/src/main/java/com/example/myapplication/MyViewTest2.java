@@ -13,7 +13,6 @@ public class MyViewTest2 extends View {
     double xe, ye, w;
     double x, y, h = 0.1;
     int k = 100;
-    //double xmin = -2 * Math.PI, xmax = 2 * Math.PI;
     double xmin = -4, xmax = 4;
 
     public MyViewTest2(Context context) {
@@ -43,9 +42,6 @@ public class MyViewTest2 extends View {
         for (x = xmin; x < xmax; x += h) {
 
             y=Math.abs(x);
-            //y = Math.pow(x,4);
-            // y=Math.tan(x);
-            // y = 3 * Math.sin(x);
             xe = x0 + k * x;
             ye = y0 - k * y;
             if (first) {
@@ -61,8 +57,6 @@ public class MyViewTest2 extends View {
         paint.setColor(Color.RED);
         for (x = xmin; x < xmax; x += h) {
             y=-x*x+3;
-            // y=Math.tan(x);
-            // y = 3 * Math.sin(x);
             xe = x0 + k * x;
             ye = y0 - k * y;
             if (first) {
