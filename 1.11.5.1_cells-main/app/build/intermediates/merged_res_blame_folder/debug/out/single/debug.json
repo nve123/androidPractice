@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "ru.samsung.itschool.book.cells.app-merged_res-7:/drawable_ic_launcher.png.flat",
+        "source": "ru.samsung.itschool.book.cells.app-main-9:/drawable/ic_launcher.png"
+    },
+    {
+        "merged": "ru.samsung.itschool.book.cells.app-merged_res-7:/layout_cells.xml.flat",
+        "source": "ru.samsung.itschool.book.cells.app-main-9:/layout/cells.xml"
+    },
+    {
+        "merged": "ru.samsung.itschool.book.cells.app-merged_res-7:/layout_cell.xml.flat",
+        "source": "ru.samsung.itschool.book.cells.app-main-9:/layout/cell.xml"
+    }
+]

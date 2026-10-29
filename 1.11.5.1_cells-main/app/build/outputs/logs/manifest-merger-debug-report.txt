@@ -1,0 +1,114 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\projects\tests\1.11.5.1_cells-main\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\projects\tests\1.11.5.1_cells-main\app\src\main\AndroidManifest.xml:2:1-25:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\bd47315dcf167b70527bc9ba7bff6b42\transformed\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\19e7666b1b019f6aaa2de489215a7519\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\f5685177d8190a8bbc288faf3ce4bc3b\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\2ff1f31432dea738fd85b910e49a67cd\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\3e277df5fbdd998494d4ba241b6bab38\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\0a0616e2894d234b2918fba81b42c7f4\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\8d75eef4baa3ee80c1fd2e4b6d720972\transformed\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\cd95397b5a6fb5c178040bce71b065a5\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\911dcf6683cbcfa0d3d34d34213ac38d\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\3e20aa76884f58cc5b7b90723d626183\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\dda893489d9ed081b3e3d7a41b05b527\transformed\core-1.3.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\655aba68b0811f900bb847f1474d6a6a\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\09f28a496ed7d2b69d28232ca620871a\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\48de1b9647d51d2e9eed4db85f5d7f20\transformed\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\c408b28c7fc44c1aa012ce6612ca2196\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\b20d23e08c2d1dd57b3aea9a9c030134\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\35ab6543580a3cb16e7bced856a82527\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\3938ab172b9ee421c13ccc7eef104c9e\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\b6da1c1fe0d9c05d44a7b6cc7258adec\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\abda8387ba27d5331f80c92223797e0f\transformed\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+	package
+		ADDED from C:\projects\tests\1.11.5.1_cells-main\app\src\main\AndroidManifest.xml:3:5-45
+		INJECTED from C:\projects\tests\1.11.5.1_cells-main\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\projects\tests\1.11.5.1_cells-main\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\projects\tests\1.11.5.1_cells-main\app\src\main\AndroidManifest.xml:7:5-23:19
+INJECTED from C:\projects\tests\1.11.5.1_cells-main\app\src\main\AndroidManifest.xml:7:5-23:19
+MERGED from [androidx.core:core:1.3.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\dda893489d9ed081b3e3d7a41b05b527\transformed\core-1.3.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\dda893489d9ed081b3e3d7a41b05b527\transformed\core-1.3.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\09f28a496ed7d2b69d28232ca620871a\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\09f28a496ed7d2b69d28232ca620871a\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from C:\projects\tests\1.11.5.1_cells-main\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\dda893489d9ed081b3e3d7a41b05b527\transformed\core-1.3.0\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from C:\projects\tests\1.11.5.1_cells-main\app\src\main\AndroidManifest.xml:10:9-41
+	android:icon
+		ADDED from C:\projects\tests\1.11.5.1_cells-main\app\src\main\AndroidManifest.xml:9:9-45
+	android:allowBackup
+		ADDED from C:\projects\tests\1.11.5.1_cells-main\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from C:\projects\tests\1.11.5.1_cells-main\app\src\main\AndroidManifest.xml:11:9-40
+activity#ru.samsung.itschool.book.cells.CellsActivity
+ADDED from C:\projects\tests\1.11.5.1_cells-main\app\src\main\AndroidManifest.xml:12:9-22:20
+	android:screenOrientation
+		ADDED from C:\projects\tests\1.11.5.1_cells-main\app\src\main\AndroidManifest.xml:15:13-49
+	android:label
+		ADDED from C:\projects\tests\1.11.5.1_cells-main\app\src\main\AndroidManifest.xml:14:13-45
+	android:name
+		ADDED from C:\projects\tests\1.11.5.1_cells-main\app\src\main\AndroidManifest.xml:13:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\projects\tests\1.11.5.1_cells-main\app\src\main\AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from C:\projects\tests\1.11.5.1_cells-main\app\src\main\AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from C:\projects\tests\1.11.5.1_cells-main\app\src\main\AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\projects\tests\1.11.5.1_cells-main\app\src\main\AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from C:\projects\tests\1.11.5.1_cells-main\app\src\main\AndroidManifest.xml:20:27-74
+uses-sdk
+INJECTED from C:\projects\tests\1.11.5.1_cells-main\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\projects\tests\1.11.5.1_cells-main\app\src\main\AndroidManifest.xml
+INJECTED from C:\projects\tests\1.11.5.1_cells-main\app\src\main\AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\bd47315dcf167b70527bc9ba7bff6b42\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\bd47315dcf167b70527bc9ba7bff6b42\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\19e7666b1b019f6aaa2de489215a7519\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\19e7666b1b019f6aaa2de489215a7519\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\f5685177d8190a8bbc288faf3ce4bc3b\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\f5685177d8190a8bbc288faf3ce4bc3b\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\2ff1f31432dea738fd85b910e49a67cd\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\2ff1f31432dea738fd85b910e49a67cd\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\3e277df5fbdd998494d4ba241b6bab38\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\3e277df5fbdd998494d4ba241b6bab38\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\0a0616e2894d234b2918fba81b42c7f4\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\0a0616e2894d234b2918fba81b42c7f4\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\8d75eef4baa3ee80c1fd2e4b6d720972\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\8d75eef4baa3ee80c1fd2e4b6d720972\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\cd95397b5a6fb5c178040bce71b065a5\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\cd95397b5a6fb5c178040bce71b065a5\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\911dcf6683cbcfa0d3d34d34213ac38d\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\911dcf6683cbcfa0d3d34d34213ac38d\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\3e20aa76884f58cc5b7b90723d626183\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\3e20aa76884f58cc5b7b90723d626183\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\dda893489d9ed081b3e3d7a41b05b527\transformed\core-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\dda893489d9ed081b3e3d7a41b05b527\transformed\core-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\655aba68b0811f900bb847f1474d6a6a\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\655aba68b0811f900bb847f1474d6a6a\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\09f28a496ed7d2b69d28232ca620871a\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\09f28a496ed7d2b69d28232ca620871a\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\48de1b9647d51d2e9eed4db85f5d7f20\transformed\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\48de1b9647d51d2e9eed4db85f5d7f20\transformed\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\c408b28c7fc44c1aa012ce6612ca2196\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\c408b28c7fc44c1aa012ce6612ca2196\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\b20d23e08c2d1dd57b3aea9a9c030134\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\b20d23e08c2d1dd57b3aea9a9c030134\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\35ab6543580a3cb16e7bced856a82527\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\35ab6543580a3cb16e7bced856a82527\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\3938ab172b9ee421c13ccc7eef104c9e\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\3938ab172b9ee421c13ccc7eef104c9e\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\b6da1c1fe0d9c05d44a7b6cc7258adec\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\b6da1c1fe0d9c05d44a7b6cc7258adec\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\abda8387ba27d5331f80c92223797e0f\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Алекс\.gradle\caches\9.0-milestone-1\transforms\abda8387ba27d5331f80c92223797e0f\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from C:\projects\tests\1.11.5.1_cells-main\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\projects\tests\1.11.5.1_cells-main\app\src\main\AndroidManifest.xml
